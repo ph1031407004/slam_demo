@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11  -Wall -W -O3 -DNDEBUG -shared -Wl,-soname,libg2o_opengl_helper.so -o /home/huag/learning_slam/Pro/ORBSLAM2_with_pointcloud_map/orbslam2_modified/g2o_with_orbslam2/lib/libg2o_opengl_helper.so CMakeFiles/opengl_helper.dir/opengl_primitives.cpp.o  -lGL -lGLU 
